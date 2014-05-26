@@ -1,0 +1,31 @@
+<resources>
+
+    <string name="app_name">TreeCore</string>
+    <string name="title_get_sample">GET</string>
+    <string name="title_json_sample">GET JSON and parse it</string>
+    <string name="title_post_sample">POST</string>
+    <string name="title_put_sample">PUT</string>
+    <string name="title_delete_sample">DELETE</string>
+    <string name="title_file_sample">GET to File</string>
+    <string name="title_binary_sample">GET binary data</string>
+    <string name="title_cancel_all">Cancel all request</string>
+    <string name="title_cancel_handle">Cancel request handle</string>
+    <string name="title_synchronous">Synchronous GET request</string>
+    <string name="title_threading_timeout">Threading timeouts</string>
+    <string name="title_gzip_sample">GET Gzipped JSON and parse it</string>
+    <string name="button_run">Run</string>
+    <string name="label_headers">Headers (key=val, one per line)</string>
+    <string name="label_req_body">Request body</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="title_redirect_302">302 Redirect handling</string>
+    <string name="action_settings">Settings</string>
+    <string name="statement">Sqlcryt必须运行在Android Sdk 7 以上</string>
+    <string name="enter_password">输入密码</string>
+    <string name="confirm">确定</string>
+    <string name="open_database">打开数据库</string>
+    <string name="change_passwd_database">更改数据库密码</string>
+    <string name="edit_text_hint">首次运行密码为空!</string>
+    <string name="error_tip1">请先打开数据库!</string>
+    <string name="error_tip2">密码错误!</string>
+
+</resources>

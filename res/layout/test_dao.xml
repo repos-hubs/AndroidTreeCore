@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/Button_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onMyButtonClick"
+            android:text="随机添加 1000个" >
+        </Button>
+
+        <Button
+            android:id="@+id/Button_del"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onMyButtonClick"
+            android:text="随机删除 20个" >
+        </Button>
+
+        <Button
+            android:id="@+id/Button_look"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onMyButtonClick"
+            android:text="查看" >
+        </Button>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/ListView_cursor"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+</LinearLayout>
